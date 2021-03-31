@@ -1,10 +1,13 @@
 import "./styles.css";
+import { Fragment } from "react";
+import Navbar from "./Layout/Navbar";
+import Landing from "./Layout/Landing";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <Fragment>
+      <Navbar />
+      <Landing />
+    </Fragment>
   );
 }
